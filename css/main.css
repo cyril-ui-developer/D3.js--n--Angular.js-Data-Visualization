@@ -1,0 +1,140 @@
+
+body{
+    background-color: #fff;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+
+
+.menu-text{
+float: right;
+position: absolute;
+  right: 60px;
+    top: 13px;
+    color: #fff;
+    font-weight: 600;
+  
+}
+article{
+	height: 350px;
+}
+.chart-margin{
+	margin-left: 400px;
+}
+footer{
+	margin: 40px;
+}
+.bartext{
+	font-weight: 700;
+}
+/*==============================================
+Main Content and Heading
+================================================*/
+main navbar navbar-default top-navbar{  margin:0px;}
+
+p   {
+    font-size:1.063em;        
+	line-height:1.223;  
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight = 100; 
+}
+	
+h1 {
+    font-size:1.6em;     
+    line-height:1.023;
+    color:#ccc;
+    font-weight: 900;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0.3em;
+  }         
+	
+
+h4 {
+    font-size: 1em;/*1.1em;*/
+	line-height: 1.56;
+	text-transform: uppercase;
+    font-weight: 600;
+    word-spacing: .20em;
+    color: 444;
+    padding-bottom: 0px;
+    margin-bottom: 3px;
+    
+		}
+	
+
+
+/* ******************************************
+	Media Queries for screen wider than 38em (px)
+****************************************** */
+@media screen and (min-width:38em) {
+ 
+}
+    
+/* ******************************************
+	Media Queries for screen wider than 48em (786px)
+****************************************** */
+
+@media screen and (min-width: 48em) {
+
+    body {
+        font-size: 150%;
+    }
+    h1{
+    font-size:2.1em;    
+    line-height:1.423;
+    font-weight: 700; 
+    }
+    
+ 
+}
+
+/* new */
+
+p{
+font-size: 20px;
+font-weight: bold;
+}
+    .axis path, .axis line
+        {
+            fill: none;
+            stroke: #999;
+            shape-rendering: crispEdges;
+        }
+        
+        .axis text
+        {
+            font-family: 'Arial';
+            font-size: 13px;
+        }
+
+/* new style*/
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: steelblue;
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: steelblue;
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
